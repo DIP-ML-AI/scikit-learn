@@ -199,7 +199,7 @@ matrices  as input, as long as ``with_mean=False`` is explicitly passed
 to the constructor. Otherwise a ``ValueError`` will be raised as
 silently centering would break the sparsity and would often crash the
 execution by allocating excessive amounts of memory unintentionally.
-:class:`RobustScaler` cannot be fited to sparse inputs, but you can use
+:class:`RobustScaler` cannot be fitted to sparse inputs, but you can use
 the ``transform`` method on sparse inputs.
 
 Note that the scalers accept both Compressed Sparse Rows and Compressed
@@ -549,7 +549,7 @@ in the matrix. This format is thus suitable when there are many more missing
 values than observed values.
 
 :class:`Imputer` can be used in a Pipeline as a way to build a composite
-estimator that supports imputation. See :ref:`sphx_glr_auto_examples_missing_values.py`
+estimator that supports imputation. See :ref:`sphx_glr_auto_examples_plot_missing_values.py`.
 
 .. _polynomial_features:
 
